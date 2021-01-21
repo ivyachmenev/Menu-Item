@@ -1,0 +1,71 @@
+    .mi-label { display:inline; }
+    .mi-hover { text-decoration:underline; cursor: pointer }
+
+    .mi-menu { 
+ 
+      display: none; 
+      position: absolute; 
+      border: 1px solid #AAA;
+      text-align: left;
+
+      z-index: 100;
+      background-color: white;
+    }
+    .mi-submenu { 
+ 
+      display: none; 
+      position: absolute; 
+      border: 1px solid #AAA;
+      text-align: left;
+
+      z-index: 100;
+      background-color: white;
+    }
+    .ui-icon-blue {       background-image: url("#PLUGIN_PREFIX#ui-icons_2e83ff_256x240.png"); }
+    .ui-icon-red {        background-image: url("#PLUGIN_PREFIX#ui-icons_cd0a0a_256x240.png"); }
+    .ui-icon-black {      background-image: url("#PLUGIN_PREFIX#ui-icons_222222_256x240.png"); }
+    .ui-icon-grey {       background-image: url("#PLUGIN_PREFIX#ui-icons_454545_256x240.png"); }
+    .ui-icon-light-grey { background-image: url("#PLUGIN_PREFIX#ui-icons_888888_256x240.png"); }
+
+    .mi-icon { 
+
+       display: inline-block ! important;
+       vertical-align: top;
+       position: relative;
+       left: -2px;
+     }
+
+    .mi-menu-option {
+
+      list-style: outside none none; 
+      padding: 3px 5px 3px 4px;
+    }
+    .mi-has-child li.mi-menu-option { padding-right: 16px }
+    .mi-option-hover { 
+
+      text-decoration: none; 
+      cursor: pointer; 
+      background-color: #DADADA; 
+
+      border: 1px solid #AAA;
+      margin: -1px;
+    }
+
+    .mi-left { text-align: left }
+    .mi-center { text-align: center }
+    .mi-right { text-align: right }
+
+    .mi-option-text { white-space: nowrap }
+    .mi-option-icon { 
+
+      position: absolute; 
+      right: 0px; 
+      width: 16px; 
+      height: 16px; 
+      display: block
+    }
+	
+	.mi-loading-indicator {
+		background-image:url(#IMAGE_PREFIX#apex/builder/loading16x16.gif);
+		padding:1px 8px 1px 8px;
+	}
