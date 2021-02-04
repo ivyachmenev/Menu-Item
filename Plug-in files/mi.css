@@ -69,3 +69,10 @@
 		background-image:url(#IMAGE_PREFIX#apex/builder/loading16x16.gif);
 		padding:1px 8px 1px 8px;
 	}
+	
+	.mi-ui-icon-carat-1-e {
+		background-position: -32px 0;
+	}
+	.mi-ui-icon-triangle-1-s {
+		background-position: -64px -16px;
+	}
