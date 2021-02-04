@@ -1,14 +1,21 @@
  Menu Item Plug-in
  ===================
- Release 1.0 beta
+ Release 1.0
  
- Home page: https://github.com/ivyachmenev/
+ Home page: https://github.com/ivyachmenev/Menu-Item
+ Demo: https://apex.oracle.com/pls/apex/f?p=73108:6::::::
  
  This Plugin is free and licensed under the MIT license ( http://www.opensource.org/licenses/mit-license.php )
  
  
  CHANGE LOG
  ===================
+
+ Changes in 1.0:
+
+ * Fixed: icon displaying issues in apex 20.2
+
+ -------------------
 
  Changes in 1.0 beta:
 
